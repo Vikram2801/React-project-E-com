@@ -1,0 +1,88 @@
+.mainDiv{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.card{
+  flex-grow: 1;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+.card-img-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.cart {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 10px;
+  text-align: center;
+  flex-basis: 1;
+}
+.price{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.product-image {
+  transition: transform 0.4s ease;
+  height: 286px;
+}
+.border-none{
+  border-bottom: 0 !important;
+}
+.footer{
+  border-top:none !important;
+
+}
+.orginal-price{
+  text-decoration: line-through;
+  color: #ccc;
+  font-size: 20px;
+ 
+}
+.discount{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #fff;
+  background: #dd3c58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.priceDiv{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.price-discount{
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+
+}
+.priceModal{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+.offer{
+  font-size: 20px;
+}
+p{
+  margin: 0;
+}
