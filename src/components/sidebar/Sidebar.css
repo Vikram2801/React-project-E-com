@@ -1,0 +1,12 @@
+.imgclass {
+  height: 51px !important;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+}
+.navbar {
+  position: fixed !important;
+  width: 100% !important;
+  z-index: 999 !important;
+  background: #727272 !important;
+}

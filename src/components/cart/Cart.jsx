@@ -1,8 +1,21 @@
-import React from 'react'
+import "../cart/Cart.css";
 
 const Cart = () => {
   return (
-    <div>Cart</div>
+    <>
+    <div className='mainCart'>
+      <div className="container-fluid">
+          <div>
+            <h4>Shopping Cart</h4>
+
+          </div>
+          <div>
+
+          </div>
+      </div>
+    </div>
+    </>
+    
   )
 }
 
